@@ -1,0 +1,69 @@
+\documentclass[12pt,a4paper]{jarticle}
+
+\usepackage[dvipdfmx]{graphicx}
+\usepackage{fancyhdr}
+\title{レポートタイトル}
+\author{XXXXXXXXX LastName FirstName}
+\usepackage[top=30truemm,bottom=30truemm,left=25truemm,right=25truemm]{geometry}
+\usepackage{ascmac}
+\usepackage{lastpage}
+\usepackage{framed}
+\usepackage[dvipdfmx]{color}
+\usepackage{here}
+\usepackage{listings,jlisting}
+\usepackage{url}
+%\usepackage{pdfpages}
+
+\pagestyle{fancy}
+\lhead{レポートタイトル -XX課題(第X回)-}
+\rhead{学籍番号:XXXXXXXXX LastName FirstName}
+\cfoot{\thepage{}/{}\pageref{LastPage}}
+
+%\begin{oframed}{}
+%\scriptsize
+%\begin{verbatim}
+%\end{verbatim}
+%\end{oframed}
+
+%\begin{itemize}
+%\item
+%\end{itemize}
+
+%\begin{figure}[H]
+%  \centering
+%  \includegraphics[width=0.8\linewidth]{primitive.png}
+%  \caption{作成したプリミティブ}
+%\end{figure}
+
+%{\bf }
+
+%\begin{lstlisting}[caption=Jacobi,label=Jacobi]
+
+\lstset{%
+  language={C},
+  basicstyle={\small},%
+  identifierstyle={\small},%
+  commentstyle={\small\itshape},%
+  keywordstyle={\small\bfseries},%
+  ndkeywordstyle={\small},%
+  stringstyle={\small\ttfamily},
+  frame={tb},
+  breaklines=true,
+  columns=[l]{fullflexible},%
+  numbers=left,%
+  xrightmargin=0zw,%
+  xleftmargin=3zw,%
+  numberstyle={\scriptsize},%
+  stepnumber=1,
+  numbersep=1zw,%
+  lineskip=-0.5ex%
+}
+
+\begin{document}
+
+%\maketitle
+%\newpage
+
+\section*{レポートタイトル}
+
+\end{document}
